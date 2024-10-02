@@ -26,3 +26,5 @@ spec:
           value: root
         - name: SPRING_DATASOURCE_PASSWORD
           value: Test@123
+      imagePullSecrets:
+      - name: regcred 
